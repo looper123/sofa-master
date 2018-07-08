@@ -1,0 +1,2 @@
+2018-07-04 18:18:33,876 INFO  main                             - SOFABoot Infrastructure Starting!
+2018-07-04 18:20:49,022 INFO  http-nio-8080-exec-1             - Loading properties file from URL [jar:file:/D:/idea%20repository/com/alipay/sofa/infra-sofa-boot-starter/2.4.1/infra-sofa-boot-starter-2.4.1.jar!/META-INF/sofa.versions.properties]

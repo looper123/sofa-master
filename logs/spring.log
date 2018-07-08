@@ -1,0 +1,606 @@
+2018-07-04 18:18:33.797  INFO 10684 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2018-07-04 18:18:33.803  INFO 10684 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.infra Logback ]
+2018-07-04 18:18:33.878  INFO 10684 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.healthcheck Logback ]
+2018-07-04 18:18:33.894  INFO 10684 --- [main] com.quark.boot.SofaBootApplication       : Starting SofaBootApplication on QF-ZHENPENGL-01 with PID 10684 (started by ZhenpengLu in D:\idea workspace\sofa-master)
+2018-07-04 18:18:33.895  INFO 10684 --- [main] com.quark.boot.SofaBootApplication       : No active profile set, falling back to default profiles: default
+2018-07-04 18:18:33.923  INFO 10684 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@11f0a5a1: startup date [Wed Jul 04 18:18:33 CST 2018]; root of context hierarchy
+2018-07-04 18:18:35.031  INFO 10684 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-07-04 18:18:35.041  INFO 10684 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-07-04 18:18:35.042  INFO 10684 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-07-04 18:18:35.106  INFO 10684 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-04 18:18:35.106  INFO 10684 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1183 ms
+2018-07-04 18:18:35.300  INFO 10684 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-04 18:18:35.304  INFO 10684 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2018-07-04 18:18:35.305  INFO 10684 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-04 18:18:35.305  INFO 10684 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-04 18:18:35.305  INFO 10684 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-04 18:18:35.305  INFO 10684 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-04 18:18:35.306  INFO 10684 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-07-04 18:18:35.306  INFO 10684 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-07-04 18:18:35.620  INFO 10684 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@11f0a5a1: startup date [Wed Jul 04 18:18:33 CST 2018]; root of context hierarchy
+2018-07-04 18:18:35.666  INFO 10684 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-04 18:18:35.667  INFO 10684 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-04 18:18:35.696  INFO 10684 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-04 18:18:35.696  INFO 10684 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-04 18:18:35.727  INFO 10684 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-04 18:18:35.998  INFO 10684 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-04 18:18:35.999  INFO 10684 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-04 18:18:35.999  INFO 10684 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2018-07-04 18:18:36.000  INFO 10684 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-04 18:18:36.000  INFO 10684 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-04 18:18:36.001  INFO 10684 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-04 18:18:36.001  INFO 10684 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/sofaboot/versions || /sofaboot/versions.json],produces=[application/json]}" onto public java.lang.Object com.alipay.sofa.infra.endpoint.SofaBootVersionEndpointMvcAdapter.invoke()
+2018-07-04 18:18:36.002  INFO 10684 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-07-04 18:18:36.002  INFO 10684 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-04 18:18:36.003  INFO 10684 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-07-04 18:18:36.006  INFO 10684 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-07-04 18:18:36.006  INFO 10684 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-04 18:18:36.007  INFO 10684 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2018-07-04 18:18:36.008  INFO 10684 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-04 18:18:36.008  INFO 10684 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health/readiness || /health/readiness.json],produces=[application/json]}" onto public java.lang.Object com.alipay.sofa.healthcheck.service.SofaBootReadinessCheckMvcEndpoint.invoke(java.security.Principal)
+2018-07-04 18:18:36.009  INFO 10684 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-04 18:18:36.164  INFO 10684 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-04 18:18:36.173  INFO 10684 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-07-04 18:18:36.289  INFO 10684 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-07-04 18:18:36.293  INFO 10684 --- [main] com.quark.boot.SofaBootApplication       : Started SofaBootApplication in 2.78 seconds (JVM running for 3.746)
+2018-07-04 18:20:48.986  INFO 10684 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-04 18:20:48.986  INFO 10684 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-04 18:20:49.001  INFO 10684 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2018-07-05 16:17:12.364  INFO 5656 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2018-07-05 16:17:12.369  INFO 5656 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.infra Logback ]
+2018-07-05 16:17:12.467  INFO 5656 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.healthcheck Logback ]
+2018-07-05 16:17:12.485  INFO 5656 --- [main] com.quark.boot.SofaBootApplication       : Starting SofaBootApplication on QF-ZHENPENGL-01 with PID 5656 (started by ZhenpengLu in D:\idea workspace\sofa-master)
+2018-07-05 16:17:12.485  INFO 5656 --- [main] com.quark.boot.SofaBootApplication       : No active profile set, falling back to default profiles: default
+2018-07-05 16:17:12.516  INFO 5656 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@11f0a5a1: startup date [Thu Jul 05 16:17:12 CST 2018]; root of context hierarchy
+2018-07-05 16:17:13.503  INFO 5656 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-07-05 16:17:13.510  INFO 5656 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-07-05 16:17:13.511  INFO 5656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-07-05 16:17:13.570  INFO 5656 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-05 16:17:13.570  INFO 5656 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1054 ms
+2018-07-05 16:17:13.764  INFO 5656 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-05 16:17:13.767  INFO 5656 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2018-07-05 16:17:13.767  INFO 5656 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-05 16:17:13.768  INFO 5656 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-05 16:17:13.768  INFO 5656 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-05 16:17:13.768  INFO 5656 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-05 16:17:13.768  INFO 5656 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-07-05 16:17:13.768  INFO 5656 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-07-05 16:17:14.054  INFO 5656 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@11f0a5a1: startup date [Thu Jul 05 16:17:12 CST 2018]; root of context hierarchy
+2018-07-05 16:17:14.099  INFO 5656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-05 16:17:14.099  INFO 5656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-05 16:17:14.126  INFO 5656 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 16:17:14.126  INFO 5656 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 16:17:14.157  INFO 5656 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 16:17:14.398  INFO 5656 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-05 16:17:14.399  INFO 5656 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-05 16:17:14.399  INFO 5656 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-05 16:17:14.400  INFO 5656 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health/readiness || /health/readiness.json],produces=[application/json]}" onto public java.lang.Object com.alipay.sofa.healthcheck.service.SofaBootReadinessCheckMvcEndpoint.invoke(java.security.Principal)
+2018-07-05 16:17:14.400  INFO 5656 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-07-05 16:17:14.401  INFO 5656 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-05 16:17:14.401  INFO 5656 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-05 16:17:14.402  INFO 5656 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-07-05 16:17:14.402  INFO 5656 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-05 16:17:14.403  INFO 5656 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2018-07-05 16:17:14.404  INFO 5656 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-05 16:17:14.405  INFO 5656 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2018-07-05 16:17:14.405  INFO 5656 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/sofaboot/versions || /sofaboot/versions.json],produces=[application/json]}" onto public java.lang.Object com.alipay.sofa.infra.endpoint.SofaBootVersionEndpointMvcAdapter.invoke()
+2018-07-05 16:17:14.407  INFO 5656 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-07-05 16:17:14.407  INFO 5656 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-05 16:17:14.408  INFO 5656 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-05 16:17:14.566  INFO 5656 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-05 16:17:14.573  INFO 5656 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-07-05 16:17:14.702  INFO 5656 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-07-05 16:17:14.706  INFO 5656 --- [main] com.quark.boot.SofaBootApplication       : Started SofaBootApplication in 2.66 seconds (JVM running for 3.292)
+2018-07-05 16:17:20.280  INFO 5656 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-05 16:17:20.280  INFO 5656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-05 16:17:20.298  INFO 5656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2018-07-06 09:56:22.563  INFO 4180 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2018-07-06 09:56:22.572  INFO 4180 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.infra Logback ]
+2018-07-06 09:56:22.689  INFO 4180 --- [main] ApplicationRun                           : Starting ApplicationRun on QF-ZHENPENGL-01 with PID 4180 (started by ZhenpengLu in D:\idea workspace\sofa-master)
+2018-07-06 09:56:22.689  INFO 4180 --- [main] ApplicationRun                           : No active profile set, falling back to default profiles: default
+2018-07-06 09:56:22.742  INFO 4180 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b6ec132: startup date [Fri Jul 06 09:56:22 CST 2018]; root of context hierarchy
+2018-07-06 09:56:22.757  WARN 4180 --- [main] ionWarningsApplicationContextInitializer : 
+
+** WARNING ** : Your ApplicationContext is unlikely to start due to a @ComponentScan of the default package.
+
+
+2018-07-06 09:56:36.584  WARN 4180 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [ApplicationRun]; nested exception is java.lang.NoClassDefFoundError: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
+2018-07-06 09:56:36.589 ERROR 4180 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b6ec132: startup date [Fri Jul 06 09:56:22 CST 2018]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:404) [spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253) ~[spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578) [spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554) [spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:954) [spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523) [spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:961) [spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033) [spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:555) [spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at ApplicationRun.main(ApplicationRun.java:8) [classes/:na]
+
+2018-07-06 09:56:36.595 ERROR 4180 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [ApplicationRun]; nested exception is java.lang.NoClassDefFoundError: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:180) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:324) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:246) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:270) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:524) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761) ~[spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371) ~[spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at ApplicationRun.main(ApplicationRun.java:8) [classes/:na]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[na:1.8.0_144]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763) ~[na:1.8.0_144]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[na:1.8.0_144]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467) ~[na:1.8.0_144]
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73) ~[na:1.8.0_144]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368) ~[na:1.8.0_144]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362) ~[na:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_144]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361) ~[na:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_144]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335) ~[na:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_144]
+	at org.springframework.core.type.classreading.AnnotationReadingVisitorUtils.convertClassValues(AnnotationReadingVisitorUtils.java:78) ~[spring-core-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor.getAnnotationAttributes(AnnotationMetadataReadingVisitor.java:134) ~[spring-core-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor.getAnnotationAttributes(AnnotationMetadataReadingVisitor.java:49) ~[spring-core-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.AnnotationConfigUtils.attributesFor(AnnotationConfigUtils.java:280) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.determineBeanNameFromAnnotation(AnnotationBeanNameGenerator.java:90) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.generateBeanName(AnnotationBeanNameGenerator.java:70) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:252) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:137) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:268) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:230) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:166) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	... 11 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_144]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335) ~[na:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_144]
+	... 35 common frames omitted
+
+2018-07-06 10:02:30.044  INFO 12444 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2018-07-06 10:02:30.054  INFO 12444 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.infra Logback ]
+2018-07-06 10:02:30.168  INFO 12444 --- [main] ApplicationRun                           : Starting ApplicationRun on QF-ZHENPENGL-01 with PID 12444 (started by ZhenpengLu in D:\idea workspace\sofa-master)
+2018-07-06 10:02:30.168  INFO 12444 --- [main] ApplicationRun                           : No active profile set, falling back to default profiles: default
+2018-07-06 10:02:30.255  INFO 12444 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1bab8268: startup date [Fri Jul 06 10:02:30 CST 2018]; root of context hierarchy
+2018-07-06 10:02:30.274  WARN 12444 --- [main] ionWarningsApplicationContextInitializer : 
+
+** WARNING ** : Your ApplicationContext is unlikely to start due to a @ComponentScan of the default package.
+
+
+2018-07-06 10:02:44.398  WARN 12444 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [ApplicationRun]; nested exception is java.lang.NoClassDefFoundError: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
+2018-07-06 10:02:44.402 ERROR 12444 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1bab8268: startup date [Fri Jul 06 10:02:30 CST 2018]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:404) [spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253) ~[spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578) [spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554) [spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:954) [spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523) [spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:961) [spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033) [spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:555) [spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at ApplicationRun.main(ApplicationRun.java:8) [classes/:na]
+
+2018-07-06 10:02:44.408 ERROR 12444 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [ApplicationRun]; nested exception is java.lang.NoClassDefFoundError: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:180) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:324) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:246) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:270) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:524) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761) ~[spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371) ~[spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at ApplicationRun.main(ApplicationRun.java:8) [classes/:na]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[na:1.8.0_144]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763) ~[na:1.8.0_144]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[na:1.8.0_144]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467) ~[na:1.8.0_144]
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73) ~[na:1.8.0_144]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368) ~[na:1.8.0_144]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362) ~[na:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_144]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361) ~[na:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_144]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335) ~[na:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_144]
+	at org.springframework.core.type.classreading.AnnotationReadingVisitorUtils.convertClassValues(AnnotationReadingVisitorUtils.java:78) ~[spring-core-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor.getAnnotationAttributes(AnnotationMetadataReadingVisitor.java:134) ~[spring-core-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor.getAnnotationAttributes(AnnotationMetadataReadingVisitor.java:49) ~[spring-core-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.AnnotationConfigUtils.attributesFor(AnnotationConfigUtils.java:280) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.determineBeanNameFromAnnotation(AnnotationBeanNameGenerator.java:90) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.generateBeanName(AnnotationBeanNameGenerator.java:70) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:252) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:137) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:268) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:230) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:166) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	... 11 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_144]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335) ~[na:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_144]
+	... 35 common frames omitted
+
+2018-07-06 10:50:23.085  INFO 12708 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2018-07-06 10:50:23.093  INFO 12708 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.infra Logback ]
+2018-07-06 10:50:23.169  INFO 12708 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.healthcheck Logback ]
+2018-07-06 10:50:23.187  INFO 12708 --- [main] ApplicationRun                           : Starting ApplicationRun on QF-ZHENPENGL-01 with PID 12708 (started by ZhenpengLu in D:\idea workspace\sofa-master)
+2018-07-06 10:50:23.187  INFO 12708 --- [main] ApplicationRun                           : No active profile set, falling back to default profiles: default
+2018-07-06 10:50:23.239  INFO 12708 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61fe30: startup date [Fri Jul 06 10:50:23 CST 2018]; root of context hierarchy
+2018-07-06 10:50:23.259  WARN 12708 --- [main] ionWarningsApplicationContextInitializer : 
+
+** WARNING ** : Your ApplicationContext is unlikely to start due to a @ComponentScan of the default package.
+
+
+2018-07-06 10:50:34.632  WARN 12708 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [ApplicationRun]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'errorPageFilter' for bean class [org.springframework.boot.web.support.ErrorPageFilter] conflicts with existing, non-compatible bean definition of same name and class [org.springframework.boot.context.web.ErrorPageFilter]
+2018-07-06 10:50:34.636 ERROR 12708 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61fe30: startup date [Fri Jul 06 10:50:23 CST 2018]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:404) [spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253) ~[spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578) [spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554) [spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:954) [spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523) [spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:961) [spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033) [spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:555) [spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at ApplicationRun.main(ApplicationRun.java:8) [classes/:na]
+
+2018-07-06 10:50:34.641 ERROR 12708 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [ApplicationRun]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'errorPageFilter' for bean class [org.springframework.boot.web.support.ErrorPageFilter] conflicts with existing, non-compatible bean definition of same name and class [org.springframework.boot.context.web.ErrorPageFilter]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:180) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:324) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:246) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:270) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:524) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761) ~[spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371) ~[spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at ApplicationRun.main(ApplicationRun.java:8) [classes/:na]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'errorPageFilter' for bean class [org.springframework.boot.web.support.ErrorPageFilter] conflicts with existing, non-compatible bean definition of same name and class [org.springframework.boot.context.web.ErrorPageFilter]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:320) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:259) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:137) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:268) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:230) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:166) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	... 11 common frames omitted
+
+2018-07-06 11:14:23.312  INFO 4928 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2018-07-06 11:14:23.320  INFO 4928 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.infra Logback ]
+2018-07-06 11:14:23.422  INFO 4928 --- [main] com.quark.boot.ProviderApplicationRun    : Starting ProviderApplicationRun on QF-ZHENPENGL-01 with PID 4928 (started by ZhenpengLu in D:\idea workspace\sofa-master)
+2018-07-06 11:14:23.422  INFO 4928 --- [main] com.quark.boot.ProviderApplicationRun    : No active profile set, falling back to default profiles: default
+2018-07-06 11:14:23.498  INFO 4928 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b5fad2d: startup date [Fri Jul 06 11:14:23 CST 2018]; root of context hierarchy
+2018-07-06 11:14:24.442  INFO 4928 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alipay.sofa.runtime.spring.configuration.SofaRuntimeAutoConfiguration' of type [class com.alipay.sofa.runtime.spring.configuration.SofaRuntimeAutoConfiguration$$EnhancerBySpringCGLIB$$db98a00d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-06 11:14:24.460  INFO 4928 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'bindingConverterFactory' of type [class com.alipay.sofa.runtime.service.impl.BindingConverterFactoryImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-06 11:14:24.466  INFO 4928 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'bindingAdapterFactory' of type [class com.alipay.sofa.runtime.service.impl.BindingAdapterFactoryImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-06 11:14:24.467  INFO 4928 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sofaRuntimeProperties' of type [class com.alipay.sofa.runtime.spring.config.SofaRuntimeProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-06 11:14:24.471  INFO 4928 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sofaRuntimeContext' of type [class com.alipay.sofa.runtime.spi.component.SofaRuntimeContext] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-06 11:14:24.933  INFO 4928 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-07-06 11:14:24.946  INFO 4928 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-07-06 11:14:24.948  INFO 4928 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-07-06 11:14:25.038  INFO 4928 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-06 11:14:25.038  INFO 4928 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1540 ms
+2018-07-06 11:14:25.284  INFO 4928 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-06 11:14:25.288  INFO 4928 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2018-07-06 11:14:25.289  INFO 4928 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-06 11:14:25.289  INFO 4928 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-06 11:14:25.289  INFO 4928 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-06 11:14:25.289  INFO 4928 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-06 11:14:25.289  INFO 4928 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-07-06 11:14:25.289  INFO 4928 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-07-06 11:14:25.625  INFO 4928 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b5fad2d: startup date [Fri Jul 06 11:14:23 CST 2018]; root of context hierarchy
+2018-07-06 11:14:25.688  INFO 4928 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-06 11:14:25.690  INFO 4928 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-06 11:14:25.730  INFO 4928 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-06 11:14:25.730  INFO 4928 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-06 11:14:25.776  INFO 4928 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-06 11:14:26.104  INFO 4928 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:14:26.104  INFO 4928 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/sofaboot/versions || /sofaboot/versions.json],produces=[application/json]}" onto public java.lang.Object com.alipay.sofa.infra.endpoint.SofaBootVersionEndpointMvcAdapter.invoke()
+2018-07-06 11:14:26.105  INFO 4928 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-07-06 11:14:26.106  INFO 4928 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-07-06 11:14:26.106  INFO 4928 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:14:26.107  INFO 4928 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2018-07-06 11:14:26.107  INFO 4928 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:14:26.108  INFO 4928 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:14:26.108  INFO 4928 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:14:26.109  INFO 4928 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:14:26.111  INFO 4928 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:14:26.113  INFO 4928 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:14:26.113  INFO 4928 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-07-06 11:14:26.113  INFO 4928 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:14:26.114  INFO 4928 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2018-07-06 11:14:26.303  INFO 4928 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-06 11:14:26.314  INFO 4928 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-07-06 11:14:26.428  INFO 4928 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-07-06 11:14:26.431  INFO 4928 --- [main] com.quark.boot.ProviderApplicationRun    : Started ProviderApplicationRun in 3.679 seconds (JVM running for 4.12)
+2018-07-06 11:18:49.525  INFO 4708 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2018-07-06 11:18:49.535  INFO 4708 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.infra Logback ]
+2018-07-06 11:18:49.647  INFO 4708 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.healthcheck Logback ]
+2018-07-06 11:18:49.666  INFO 4708 --- [main] com.quark.boot.ConsumerApplicationRun    : Starting ConsumerApplicationRun on QF-ZHENPENGL-01 with PID 4708 (started by ZhenpengLu in D:\idea workspace\sofa-master)
+2018-07-06 11:18:49.666  INFO 4708 --- [main] com.quark.boot.ConsumerApplicationRun    : No active profile set, falling back to default profiles: default
+2018-07-06 11:18:49.721  INFO 4708 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19b843ba: startup date [Fri Jul 06 11:18:49 CST 2018]; root of context hierarchy
+2018-07-06 11:18:50.900  INFO 4708 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alipay.sofa.runtime.spring.configuration.SofaRuntimeAutoConfiguration' of type [class com.alipay.sofa.runtime.spring.configuration.SofaRuntimeAutoConfiguration$$EnhancerBySpringCGLIB$$912302f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-06 11:18:50.918  INFO 4708 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'bindingConverterFactory' of type [class com.alipay.sofa.runtime.service.impl.BindingConverterFactoryImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-06 11:18:50.923  INFO 4708 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'bindingAdapterFactory' of type [class com.alipay.sofa.runtime.service.impl.BindingAdapterFactoryImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-06 11:18:50.924  INFO 4708 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sofaRuntimeProperties' of type [class com.alipay.sofa.runtime.spring.config.SofaRuntimeProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-06 11:18:50.929  INFO 4708 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sofaRuntimeContext' of type [class com.alipay.sofa.runtime.spi.component.SofaRuntimeContext] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-06 11:18:51.419  INFO 4708 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-07-06 11:18:51.431  INFO 4708 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-07-06 11:18:51.432  INFO 4708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-07-06 11:18:51.544  INFO 4708 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-06 11:18:51.544  INFO 4708 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1823 ms
+2018-07-06 11:18:51.881  INFO 4708 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-06 11:18:51.887  INFO 4708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2018-07-06 11:18:51.888  INFO 4708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-06 11:18:51.888  INFO 4708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-06 11:18:51.888  INFO 4708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-06 11:18:51.888  INFO 4708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-06 11:18:51.888  INFO 4708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-07-06 11:18:51.888  INFO 4708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-07-06 11:18:52.276  INFO 4708 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19b843ba: startup date [Fri Jul 06 11:18:49 CST 2018]; root of context hierarchy
+2018-07-06 11:18:52.357  INFO 4708 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-06 11:18:52.358  INFO 4708 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-06 11:18:52.401  INFO 4708 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-06 11:18:52.401  INFO 4708 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-06 11:18:52.448  INFO 4708 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-06 11:18:52.811  INFO 4708 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/sofaboot/versions || /sofaboot/versions.json],produces=[application/json]}" onto public java.lang.Object com.alipay.sofa.infra.endpoint.SofaBootVersionEndpointMvcAdapter.invoke()
+2018-07-06 11:18:52.812  INFO 4708 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2018-07-06 11:18:52.812  INFO 4708 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2018-07-06 11:18:52.815  INFO 4708 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:18:52.816  INFO 4708 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health/readiness || /health/readiness.json],produces=[application/json]}" onto public java.lang.Object com.alipay.sofa.healthcheck.service.SofaBootReadinessCheckMvcEndpoint.invoke(java.security.Principal)
+2018-07-06 11:18:52.817  INFO 4708 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-07-06 11:18:52.818  INFO 4708 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:18:52.819  INFO 4708 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:18:52.820  INFO 4708 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:18:52.821  INFO 4708 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:18:52.821  INFO 4708 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:18:52.823  INFO 4708 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:18:52.827  INFO 4708 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-07-06 11:18:52.827  INFO 4708 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:18:52.828  INFO 4708 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-07-06 11:18:52.828  INFO 4708 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:18:53.017  INFO 4708 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-06 11:18:53.029  INFO 4708 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-07-06 11:18:53.146 ERROR 4708 --- [main] o.a.coyote.http11.Http11NioProtocol      : Failed to start end point associated with ProtocolHandler [http-nio-8080]
+
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_144]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) [spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at com.quark.boot.ConsumerApplicationRun.main(ConsumerApplicationRun.java:10) [classes/:na]
+
+2018-07-06 11:18:53.147 ERROR 4708 --- [main] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) [spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at com.quark.boot.ConsumerApplicationRun.main(ConsumerApplicationRun.java:10) [classes/:na]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:976) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	... 11 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_144]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	... 12 common frames omitted
+
+2018-07-06 11:18:53.156  INFO 4708 --- [main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2018-07-06 11:18:53.166  INFO 4708 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-07-06 11:18:53.170 ERROR 4708 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-07-06 11:18:53.171  INFO 4708 --- [main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19b843ba: startup date [Fri Jul 06 11:18:49 CST 2018]; root of context hierarchy
+2018-07-06 11:18:53.173  INFO 4708 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-07-06 11:18:53.174  INFO 4708 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-07-06 11:22:17.320  INFO 5344 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2018-07-06 11:22:17.328  INFO 5344 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.infra Logback ]
+2018-07-06 11:22:17.429  INFO 5344 --- [main] com.alipay.sofa.common.log               : Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.healthcheck Logback ]
+2018-07-06 11:22:17.447  INFO 5344 --- [main] com.quark.boot.ConsumerApplicationRun    : Starting ConsumerApplicationRun on QF-ZHENPENGL-01 with PID 5344 (started by ZhenpengLu in D:\idea workspace\sofa-master)
+2018-07-06 11:22:17.448  INFO 5344 --- [main] com.quark.boot.ConsumerApplicationRun    : No active profile set, falling back to default profiles: default
+2018-07-06 11:22:17.537  INFO 5344 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19b843ba: startup date [Fri Jul 06 11:22:17 CST 2018]; root of context hierarchy
+2018-07-06 11:22:18.700  INFO 5344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alipay.sofa.runtime.spring.configuration.SofaRuntimeAutoConfiguration' of type [class com.alipay.sofa.runtime.spring.configuration.SofaRuntimeAutoConfiguration$$EnhancerBySpringCGLIB$$9eeb337] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-06 11:22:18.716  INFO 5344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'bindingConverterFactory' of type [class com.alipay.sofa.runtime.service.impl.BindingConverterFactoryImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-06 11:22:18.720  INFO 5344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'bindingAdapterFactory' of type [class com.alipay.sofa.runtime.service.impl.BindingAdapterFactoryImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-06 11:22:18.721  INFO 5344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sofaRuntimeProperties' of type [class com.alipay.sofa.runtime.spring.config.SofaRuntimeProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-06 11:22:18.725  INFO 5344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sofaRuntimeContext' of type [class com.alipay.sofa.runtime.spi.component.SofaRuntimeContext] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-06 11:22:19.201  INFO 5344 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-07-06 11:22:19.212  INFO 5344 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-07-06 11:22:19.213  INFO 5344 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-07-06 11:22:19.304  INFO 5344 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-06 11:22:19.305  INFO 5344 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1768 ms
+2018-07-06 11:22:19.580  INFO 5344 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-06 11:22:19.584  INFO 5344 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2018-07-06 11:22:19.585  INFO 5344 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-06 11:22:19.585  INFO 5344 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-06 11:22:19.585  INFO 5344 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-06 11:22:19.585  INFO 5344 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-06 11:22:19.585  INFO 5344 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-07-06 11:22:19.585  INFO 5344 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-07-06 11:22:19.931  INFO 5344 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19b843ba: startup date [Fri Jul 06 11:22:17 CST 2018]; root of context hierarchy
+2018-07-06 11:22:19.992  INFO 5344 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-06 11:22:19.992  INFO 5344 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-06 11:22:20.024  INFO 5344 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-06 11:22:20.024  INFO 5344 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-06 11:22:20.063  INFO 5344 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-06 11:22:20.388  INFO 5344 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/sofaboot/versions || /sofaboot/versions.json],produces=[application/json]}" onto public java.lang.Object com.alipay.sofa.infra.endpoint.SofaBootVersionEndpointMvcAdapter.invoke()
+2018-07-06 11:22:20.389  INFO 5344 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2018-07-06 11:22:20.390  INFO 5344 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2018-07-06 11:22:20.392  INFO 5344 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:22:20.393  INFO 5344 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:22:20.394  INFO 5344 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-07-06 11:22:20.395  INFO 5344 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:22:20.396  INFO 5344 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-07-06 11:22:20.396  INFO 5344 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:22:20.397  INFO 5344 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:22:20.398  INFO 5344 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:22:20.399  INFO 5344 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:22:20.402  INFO 5344 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:22:20.402  INFO 5344 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health/readiness || /health/readiness.json],produces=[application/json]}" onto public java.lang.Object com.alipay.sofa.healthcheck.service.SofaBootReadinessCheckMvcEndpoint.invoke(java.security.Principal)
+2018-07-06 11:22:20.403  INFO 5344 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-07-06 11:22:20.403  INFO 5344 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-06 11:22:20.586  INFO 5344 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-06 11:22:20.597  INFO 5344 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-07-06 11:22:20.725 ERROR 5344 --- [main] o.a.coyote.http11.Http11NioProtocol      : Failed to start end point associated with ProtocolHandler [http-nio-8080]
+
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_144]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) [spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at com.quark.boot.ConsumerApplicationRun.main(ConsumerApplicationRun.java:10) [classes/:na]
+
+2018-07-06 11:22:20.726 ERROR 5344 --- [main] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) [spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at com.quark.boot.ConsumerApplicationRun.main(ConsumerApplicationRun.java:10) [classes/:na]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:976) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	... 11 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_144]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	... 12 common frames omitted
+
+2018-07-06 11:22:20.736  INFO 5344 --- [main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2018-07-06 11:22:20.746  INFO 5344 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-07-06 11:22:20.749 ERROR 5344 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-07-06 11:22:20.751  INFO 5344 --- [main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19b843ba: startup date [Fri Jul 06 11:22:17 CST 2018]; root of context hierarchy
+2018-07-06 11:22:20.752  INFO 5344 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-07-06 11:22:20.753  INFO 5344 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown

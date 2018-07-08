@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sofa-boot" />
+        <module name="sofa-boot-consumer" />
+        <module name="sofa-boot-facade" />
+        <module name="sofa-boot-provider" />
+        <module name="sofa-boot-run" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sofa-boot" target="1.8" />
+      <module name="sofa-boot-consumer" target="1.5" />
+      <module name="sofa-boot-facade" target="1.5" />
+      <module name="sofa-boot-master" target="1.5" />
+      <module name="sofa-boot-provider" target="1.5" />
+      <module name="sofa-boot-run" target="1.5" />
+      <module name="sofa-master" target="1.5" />
+      <module name="sofabootmaster" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

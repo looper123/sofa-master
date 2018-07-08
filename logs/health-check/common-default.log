@@ -1,0 +1,48 @@
+2018-07-06 11:18:53,107 INFO  main                             - 
+Found 1 SOFABoot component health checkers:
+class com.alipay.sofa.runtime.spring.health.SofaComponentHealthChecker
+Found 1 HealthIndicator checkers:
+class org.springframework.boot.actuate.health.DiskSpaceHealthIndicator
+
+2018-07-06 11:18:53,116 INFO  main                             - Begin first phase of the readiness check
+2018-07-06 11:18:53,116 INFO  main                             - Begin SpringContext readiness check.
+2018-07-06 11:18:53,116 INFO  main                             - SpringContext readiness check result: success.
+2018-07-06 11:18:53,116 INFO  main                             - Begin SOFABoot component readiness check.
+2018-07-06 11:18:53,117 INFO  main                             - component readiness check success. component name[RUNTIME-COMPONENT]; no retry.
+2018-07-06 11:18:53,117 INFO  main                             - SOFABoot component readiness check result: success.
+2018-07-06 11:18:53,117 INFO  main                             - Begin HealthIndicator readiness check.
+2018-07-06 11:18:53,118 INFO  main                             - HealthIndicator (class org.springframework.boot.actuate.health.DiskSpaceHealthIndicator)check success.
+2018-07-06 11:18:53,118 INFO  main                             - Readiness check HealthIndicator result: success.
+2018-07-06 11:18:53,118 INFO  main                             - first phase of the readiness check result: success
+2018-07-06 11:18:53,118 INFO  main                             - Begin second phase of the readiness check
+2018-07-06 11:18:53,118 INFO  main                             - Begin SofaBootMiddlewareAfterReadinessCheckCallback readiness check
+2018-07-06 11:18:53,119 INFO  main                             - SofaBootMiddlewareAfterReadinessCheckCallback readiness check result: success.
+2018-07-06 11:18:53,119 INFO  main                             - Begin SofaBootAfterReadinessCheckCallback readiness check
+2018-07-06 11:18:53,120 INFO  main                             - SofaBootAfterReadinessCheckCallback readiness check result: success.
+2018-07-06 11:18:53,120 INFO  main                             - SOFABoot readiness check callback : success.
+2018-07-06 11:18:53,120 INFO  main                             - second phase of the readiness check result: success
+2018-07-06 11:18:53,120 INFO  main                             - Readiness check result: success
+2018-07-06 11:22:20,687 INFO  main                             - 
+Found 1 SOFABoot component health checkers:
+class com.alipay.sofa.runtime.spring.health.SofaComponentHealthChecker
+Found 1 HealthIndicator checkers:
+class org.springframework.boot.actuate.health.DiskSpaceHealthIndicator
+
+2018-07-06 11:22:20,692 INFO  main                             - Begin first phase of the readiness check
+2018-07-06 11:22:20,692 INFO  main                             - Begin SpringContext readiness check.
+2018-07-06 11:22:20,692 INFO  main                             - SpringContext readiness check result: success.
+2018-07-06 11:22:20,692 INFO  main                             - Begin SOFABoot component readiness check.
+2018-07-06 11:22:20,693 INFO  main                             - component readiness check success. component name[RUNTIME-COMPONENT]; no retry.
+2018-07-06 11:22:20,693 INFO  main                             - SOFABoot component readiness check result: success.
+2018-07-06 11:22:20,693 INFO  main                             - Begin HealthIndicator readiness check.
+2018-07-06 11:22:20,694 INFO  main                             - HealthIndicator (class org.springframework.boot.actuate.health.DiskSpaceHealthIndicator)check success.
+2018-07-06 11:22:20,695 INFO  main                             - Readiness check HealthIndicator result: success.
+2018-07-06 11:22:20,695 INFO  main                             - first phase of the readiness check result: success
+2018-07-06 11:22:20,695 INFO  main                             - Begin second phase of the readiness check
+2018-07-06 11:22:20,695 INFO  main                             - Begin SofaBootMiddlewareAfterReadinessCheckCallback readiness check
+2018-07-06 11:22:20,696 INFO  main                             - SofaBootMiddlewareAfterReadinessCheckCallback readiness check result: success.
+2018-07-06 11:22:20,696 INFO  main                             - Begin SofaBootAfterReadinessCheckCallback readiness check
+2018-07-06 11:22:20,697 INFO  main                             - SofaBootAfterReadinessCheckCallback readiness check result: success.
+2018-07-06 11:22:20,697 INFO  main                             - SOFABoot readiness check callback : success.
+2018-07-06 11:22:20,697 INFO  main                             - second phase of the readiness check result: success
+2018-07-06 11:22:20,697 INFO  main                             - Readiness check result: success

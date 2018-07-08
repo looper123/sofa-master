@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:sofa="http://sofastack.io/schema/sofaboot" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://sofastack.io/schema/sofaboot http://sofastack.io/schema/sofaboot.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd"
+       default-autowire="byName">
+
+    <!--publish  service by xml-->
+    <sofa:service ref="sampleJvmService" interface="com.quark.boot.facade.SampleJvmService">
+        <sofa:binding.bolt/>
+    </sofa:service>
+    <bean id="sampleJvmService" class="com.quark.boot.service.SampleJvmServiceImpl">
+    </bean>
+
+    <!--publish service by annotation-->
+    <bean id="sampleJvmServiceAnnotation" class="com.quark.boot.service.SampleJvmServiceAnnotationImpl"/>
+
+    <!--publish service by api-->
+    <bean id="publishServiceWithClient" class="com.quark.boot.service.PublishServiceWithClient" init-method="init"/>
+</beans>
