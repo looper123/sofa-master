@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>sofa-boot-master</artifactId>
+        <groupId>com.quark.sofa</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>sofa-ark</artifactId>
+
+    <dependencies>
+        <!--sofa-ark maven依赖-->
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>sofa-ark-springboot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>runtime-sofa-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>rpc-sofa-boot-starter</artifactId>
+        </dependency>
+
+        <!--通过 mvn clean install package 生成的plugin依赖-->
+        <!--<dependency>-->
+            <!--<groupId>com.quark.sofa</groupId>-->
+            <!--<artifactId>sofa-ark</artifactId>-->
+            <!--<classifier>executable-ark</classifier>-->
+            <!--<version>4.0.0</version>-->
+        <!--</dependency>-->
+
+    </dependencies>
+
+    <!--sofa-ark 插件-->
+    <!--outputDirectory: 执行 mvn package 命令后，指定打出来的 ark 包存放目录，默认存放至 ${project.build.directory}-->
+    <!--arkClassifier: 执行 mvn depleoy 命令后，指定发布到仓库的 ark 包的maven坐标的 classifer 值, 默认为空；我们推荐配置此配置项用于和普通的 Fat Jar 加以名字上区别；-->
+    <!--denyImportClasses: 默认情况下，应用会优先加载 ark plugin 导出的类，使用该配置项，可以禁止应用从 ark plugin 加载其导出类；-->
+    <!--denyImportPackages: 对应上述的 denyImportClasses, 提供包级别的禁止导入；-->
+    <!--denyImportResources: 默认情况下，应用会优先加载 ark plugin 导出的资源，使用该配置项，可以禁止应用从 ark plugin 加载其导出资源；-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.alipay.sofa</groupId>
+                <artifactId>sofa-ark-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>default-cli</id>
+
+                        <!--goal executed to generate executable-ark-jar -->
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+
+                        <configuration>
+                            <!--specify destination where executable-ark-jar will be saved, default saved to ${project.build.directory}-->
+                            <outputDirectory>./arkPackage</outputDirectory>
+
+                            <arkClassifier>executable-ark</arkClassifier>
+
+                            <!-- all class exported by ark plugin would be resolved by ark biz in default, if
+                            configure denyImportClasses, then it would prefer to load them by ark biz itself -->
+                            <denyImportClasses>
+                                <class>com.quark.ark.isolation.facade.impl.SampleServiceImpl</class>
+                            </denyImportClasses>
+
+                            <!-- Corresponding to denyImportClasses, denyImportPackages is package-level -->
+                            <denyImportPackages>
+                                <package>com.alipay.sofa</package>
+                                <package>org.springframework</package>
+                            </denyImportPackages>
+
+                            <!-- denyImportResources can prevent resource exported by ark plugin with accurate
+                            name to be resolved -->
+                            <denyImportResources>
+                                <resource>META-INF/spring/test1.xml</resource>
+                            </denyImportResources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

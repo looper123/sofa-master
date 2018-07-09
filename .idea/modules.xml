@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/sofa-boot-master/sofa-ark/sofa-ark.iml" filepath="$PROJECT_DIR$/sofa-boot-master/sofa-ark/sofa-ark.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-boot-master/sofa-boot-consumer/sofa-boot-consumer.iml" filepath="$PROJECT_DIR$/sofa-boot-master/sofa-boot-consumer/sofa-boot-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-boot-master/sofa-boot-facade/sofa-boot-facade.iml" filepath="$PROJECT_DIR$/sofa-boot-master/sofa-boot-facade/sofa-boot-facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-boot-master/sofa-boot-master.iml" filepath="$PROJECT_DIR$/sofa-boot-master/sofa-boot-master.iml" />

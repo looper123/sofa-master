@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sofa-boot-consumer-1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sofa-boot-facade-1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sofa-boot-master" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sofa-boot-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sofa-boot-master/sofa-ark" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sofa-boot-master/sofa-boot-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sofa-boot-master/sofa-boot-facade" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sofa-boot-master/sofa-boot-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sofa-boot-master/sofa-boot-run" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sofa-boot-provider-1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sofa-boot-run-1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sofabootmaster" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
