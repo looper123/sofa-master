@@ -71,5 +71,5 @@ clean install deploy命令，把包发布到仓库中，生成类似下面这种
      <version>0.4.0-SNAPSHOT</version>
  </dependency>
 ````
-- 其中groupId、artifactId和version和该项目一一对应，classifier和sofa-ark-maven-plugin中的arkClassifier对应，最后把该依赖添加到项目的
+- 其中groupId、artifactId、version和该项目一一对应，classifier和sofa-ark-maven-plugin中的arkClassifier对应，最后把该依赖添加到项目的
 pom文件中。
