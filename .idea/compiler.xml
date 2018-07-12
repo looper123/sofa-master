@@ -7,15 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sofa-ark" />
+        <module name="sofa-bolt" />
         <module name="sofa-boot" />
         <module name="sofa-boot-consumer" />
         <module name="sofa-boot-facade" />
         <module name="sofa-boot-provider" />
-        <module name="sofa-boot-run" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="sofa-ark" target="1.7" />
+      <module name="sofa-bolt" target="1.7" />
       <module name="sofa-boot" target="1.8" />
       <module name="sofa-boot-consumer" target="1.7" />
       <module name="sofa-boot-facade" target="1.7" />

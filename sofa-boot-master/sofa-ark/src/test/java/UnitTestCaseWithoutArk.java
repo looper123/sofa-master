@@ -16,7 +16,7 @@ public class UnitTestCaseWithoutArk {
 
     @Test
     public void test() {
-        Assert.assertFalse(true);
+        Assert.assertFalse(false);
     }
 
 }

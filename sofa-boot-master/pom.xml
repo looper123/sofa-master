@@ -16,30 +16,10 @@
         <module>sofa-boot-consumer</module>
         <module>sofa-boot-provider</module>
         <module>sofa-boot-facade</module>
-        <module>sofa-boot-run</module>
         <module>sofa-ark</module>
     </modules>
     <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-            <scope>test</scope>
-        </dependency>
 
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>test-sofa-boot-starter</artifactId>
-        </dependency>
     </dependencies>
 
 </project>

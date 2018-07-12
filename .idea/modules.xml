@@ -3,11 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/sofa-boot-master/sofa-ark/sofa-ark.iml" filepath="$PROJECT_DIR$/sofa-boot-master/sofa-ark/sofa-ark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sofa-bolt/sofa-bolt.iml" filepath="$PROJECT_DIR$/sofa-bolt/sofa-bolt.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-boot-master/sofa-boot-consumer/sofa-boot-consumer.iml" filepath="$PROJECT_DIR$/sofa-boot-master/sofa-boot-consumer/sofa-boot-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-boot-master/sofa-boot-facade/sofa-boot-facade.iml" filepath="$PROJECT_DIR$/sofa-boot-master/sofa-boot-facade/sofa-boot-facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-boot-master/sofa-boot-master.iml" filepath="$PROJECT_DIR$/sofa-boot-master/sofa-boot-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-boot-master/sofa-boot-provider/sofa-boot-provider.iml" filepath="$PROJECT_DIR$/sofa-boot-master/sofa-boot-provider/sofa-boot-provider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sofa-boot-master/sofa-boot-run/sofa-boot-run.iml" filepath="$PROJECT_DIR$/sofa-boot-master/sofa-boot-run/sofa-boot-run.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-master.iml" filepath="$PROJECT_DIR$/sofa-master.iml" />
     </modules>
   </component>
