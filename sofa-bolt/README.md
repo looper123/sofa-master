@@ -37,32 +37,32 @@ Bolt 名字取自迪士尼动画-闪电狗，是一个基于 Netty 最佳实践�
 ![framework](https://raw.githubusercontent.com/alipay/sofa-bolt/master/.middleware-common/msg_protocol.png)
   
 ### 基础功能
-####1.1 实现用户请求处理器(UserProcessor)
+#### 1.1 实现用户请求处理器(UserProcessor)
 SOFABOLT提供了两种用户请求处理器，SyncUserProcessor和AsyncUserProcessor,两个处理器的区别在于，前者需要在当前线程return形式返回处理结果；而
 后者是通过AsyncContext,在当前线程或者异步线程中调用sendResponse方法返回处理结果。示例类：
 - [同步请求处理器](./src/main/java/com/quark/sofa/processor/SynServerProcessor.java)
 - [异步请求处理器](./src/main/java/com/quark/sofa/processor/AsynServerProcessor.java)
 
-####1.2 实现连接事件处理器(ConnectionEventProcessor)
+#### 1.2 实现连接事件处理器(ConnectionEventProcessor)
 SOFABOLT提供了两种事件监听，建连事件(ConnectionEventType.CONNECT)和断连事件(ConnectionType.CLOSE)，用户可以创建自己的事件处理器，
 并注册到客户端或者服务端，都可以监听到各自的建连与断连事件。示例类：
 - [处理建连事件](./src/main/java/com/quark/sofa/processor/ConnectEventProcessor.java)
 - [处理断连事件](./src/main/java/com/quark/sofa/processor/DisConnectEventProcessor.java)
 
-####1.3 客户端与服务端初始化(RpcClient,RpcServer)
+#### 1.3 客户端与服务端初始化(RpcClient,RpcServer)
 我们提供了一个RpcClient和RpcServer，经过简单的必要功能初始化，或者开关即可使用。示例如下：
 - [客户端初始化](./src/main/java/com/quark/sofa/rpc/RpcClientDemoByMain.java)
 - [服务端初始化](./src/main/java/com/quark/sofa/rpc/RpcServerDemoByMain.java)
 
-####1.4 基础通信模型(4种)
-- oneway调用 ![示例](./src/main/java/com/quark/sofa/communication/ModelTest.java#L69)
+#### 1.4 基础通信模型(4种)
+- oneway调用 [示例](./src/main/java/com/quark/sofa/communication/ModelTest.java#L69)
     * 当线程发起调用后，不关心调用结果，不做超时控制，只要请求已经发出，就完成本次调用。需要注意的是oneway调用不保证成功，并且发起方无法获取调用结果。
     因此可以用作定时通知或者重试的场景，调用过程可能会因为网络、机械等故障导致请求失败的。业务上需要对这些异常情况做处理后才能使用
-- sync同步调用 ![示例](./src/main/java/com/quark/sofa/communication/ModelTest.java#L80)
+- sync同步调用 [示例](./src/main/java/com/quark/sofa/communication/ModelTest.java#L80)
     * 当线程发起调用后，需要在指定的超时时间内，等到响应结果，才算完成本次调用。如果超时时间内没有得到结果，那么会排除超时异常。这种嗲用模式最常用。
     注意要根据对端的处理能力，合理设置超时时间。
-- Future调用 ![示例](./src/main/java/com/quark/sofa/communication/ModelTest.java#L103)
+- Future调用 [示例](./src/main/java/com/quark/sofa/communication/ModelTest.java#L103)
     * 当前线程发起调用，得到一个RpcResponseFutrue对象，当前线程可以继续执行下一次调用。可以在任意时刻，使用RpcRespnseFuture对象的get()方法
     来获取结果，如果响应已经回来，此时就马上得到结果；如果响应没有回来，则会阻塞住当前线程，知道响应回来，或者超时时间到。
-- CallBack异步调用 ![示例](./src/main/java/com/quark/sofa/communication/ModelTest.java#L127)
+- CallBack异步调用 [示例](./src/main/java/com/quark/sofa/communication/ModelTest.java#L127)
         
