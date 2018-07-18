@@ -20,6 +20,7 @@ import com.alipay.remoting.BizContext;
 import com.alipay.remoting.InvokeContext;
 import com.alipay.remoting.NamedThreadFactory;
 import com.alipay.remoting.rpc.protocol.SyncUserProcessor;
+import com.quark.sofa.Entity.RequestBody;
 import org.junit.Assert;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

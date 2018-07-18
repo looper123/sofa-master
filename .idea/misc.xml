@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/sofa-boot/pom.xml" />
         <option value="$PROJECT_DIR$/sofa-bolt/pom.xml" />
+        <option value="$PROJECT_DIR$/sofa-jarslink/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -14,8 +15,10 @@
         <option value="$PROJECT_DIR$/sofa-boot-facade-1/pom.xml" />
         <option value="$PROJECT_DIR$/sofa-boot-master/pom.xml" />
         <option value="$PROJECT_DIR$/sofa-boot-master/sofa-boot-run/pom.xml" />
+        <option value="$PROJECT_DIR$/sofa-boot-master/sofa-jarlink/pom.xml" />
         <option value="$PROJECT_DIR$/sofa-boot-provider-1/pom.xml" />
         <option value="$PROJECT_DIR$/sofa-boot-run-1/pom.xml" />
+        <option value="$PROJECT_DIR$/sofa-jarslink/pom.xml" />
         <option value="$PROJECT_DIR$/sofabootmaster/pom.xml" />
       </set>
     </option>

@@ -12,6 +12,7 @@
         <module name="sofa-boot-consumer" />
         <module name="sofa-boot-facade" />
         <module name="sofa-boot-provider" />
+        <module name="sofa-jarsLink" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,7 +24,11 @@
       <module name="sofa-boot-master" target="1.7" />
       <module name="sofa-boot-provider" target="1.7" />
       <module name="sofa-boot-run" target="1.7" />
+      <module name="sofa-jarlink" target="1.7" />
+      <module name="sofa-jarslink" target="1.7" />
+      <module name="sofa-jarsLink" target="1.7" />
       <module name="sofa-master" target="1.7" />
+      <module name="sofa-test" target="1.7" />
       <module name="sofabootmaster" target="1.7" />
     </bytecodeTargetLevel>
   </component>

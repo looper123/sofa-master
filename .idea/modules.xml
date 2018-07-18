@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/sofa-boot-master/sofa-boot-facade/sofa-boot-facade.iml" filepath="$PROJECT_DIR$/sofa-boot-master/sofa-boot-facade/sofa-boot-facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-boot-master/sofa-boot-master.iml" filepath="$PROJECT_DIR$/sofa-boot-master/sofa-boot-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-boot-master/sofa-boot-provider/sofa-boot-provider.iml" filepath="$PROJECT_DIR$/sofa-boot-master/sofa-boot-provider/sofa-boot-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sofa-jarsLink/sofa-jarsLink.iml" filepath="$PROJECT_DIR$/sofa-jarsLink/sofa-jarsLink.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-master.iml" filepath="$PROJECT_DIR$/sofa-master.iml" />
     </modules>
   </component>
