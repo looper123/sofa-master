@@ -64,3 +64,11 @@ Jarslink2.0 支持多个 Ark Biz 运行在 SOFAArk 容器之上，从而做到�
 - [如何使用 Jarslink 多应用动态部署](http://www.sofastack.tech/sofa-boot/docs/sofa-jarslink-jarslink-deploy-demo)
 - [如何使用跨应用通信](http://www.sofastack.tech/sofa-boot/docs/sofa-jarslink-jarslink-invocation-demo)
 - [如何集成 SOFABoot 健康检查](http://www.sofastack.tech/sofa-boot/docs/sofa-jarslink-jarslink-health-demo)
+
+#### jarslink2.0指令交互界面
+功能：
+- 发布/卸载rpc客户端和服务端
+- 健康检查
+- 激活ark-biz 
+- 更多指令信息[链接]((http://www.sofastack.tech/sofa-boot/docs/sofa-jarslink-jarslink-instruction))
+    

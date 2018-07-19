@@ -6,16 +6,35 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="check-client" />
+        <module name="check-server" />
+        <module name="client" />
+        <module name="facade" />
+        <module name="server" />
+        <module name="server (1)" />
         <module name="sofa-ark" />
         <module name="sofa-bolt" />
         <module name="sofa-boot" />
         <module name="sofa-boot-consumer" />
         <module name="sofa-boot-facade" />
         <module name="sofa-boot-provider" />
-        <module name="sofa-jarsLink" />
+        <module name="sofa-boot-sample" />
+      </profile>
+      <profile name="Annotation profile for sofa-jarsLink" enabled="true">
+        <sourceOutputDir name="../client/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../client/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="check-client" target="1.7" />
+      <module name="check-server" target="1.7" />
+      <module name="client" target="1.7" />
+      <module name="client (1)" target="1.7" />
+      <module name="facade" target="1.7" />
+      <module name="server" target="1.7" />
+      <module name="server (1)" target="1.7" />
       <module name="sofa-ark" target="1.7" />
       <module name="sofa-bolt" target="1.7" />
       <module name="sofa-boot" target="1.8" />
@@ -24,9 +43,12 @@
       <module name="sofa-boot-master" target="1.7" />
       <module name="sofa-boot-provider" target="1.7" />
       <module name="sofa-boot-run" target="1.7" />
+      <module name="sofa-boot-sample" target="1.7" />
+      <module name="sofa-health-check" target="1.7" />
       <module name="sofa-jarlink" target="1.7" />
       <module name="sofa-jarslink" target="1.7" />
       <module name="sofa-jarsLink" target="1.7" />
+      <module name="sofa-jvm-communication" target="1.7" />
       <module name="sofa-master" target="1.7" />
       <module name="sofa-test" target="1.7" />
       <module name="sofabootmaster" target="1.7" />

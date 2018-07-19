@@ -10,47 +10,37 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>sofa-jarsLink</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>sofa-jvm-communication</module>
+        <module>sofa-boot-sample</module>
+        <module>sofa-health-check</module>
+    </modules>
 
 
     <dependencies>
         <!-- Jarslink2.0 -->
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>sofa-jarslink-ark-starter</artifactId>
-            <classifier>ark-plugin</classifier>
-            <version>2.0.0-SNAPSHOT</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.alipay.sofa</groupId>-->
+            <!--<artifactId>sofa-jarslink-ark-starter</artifactId>-->
+            <!--<classifier>ark-plugin</classifier>-->
+            <!--<version>2.0.0-SNAPSHOT</version>-->
+        <!--</dependency>-->
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-web</artifactId>-->
+        <!--</dependency>-->
 
     </dependencies>
 
     <build>
-        <plugins>
-            <plugin>
-                <groupId>com.alipay.sofa</groupId>
-                <artifactId>sofa-ark-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <!--goal executed to generate executable-ark-jar -->
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-
-                        <configuration>
-                            <!--specify destination where executable-ark-jar will be saved, default saved to ${project.build.directory}-->
-                            <outputDirectory>./target</outputDirectory>
-
-                            <!--default none-->
-                            <arkClassifier>executable-ark</arkClassifier>
-
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
     </build>
+    <repositories>
+        <repository>
+            <id>nexus-aliyun</id>
+            <name>Nexus aliyun</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
 </project>

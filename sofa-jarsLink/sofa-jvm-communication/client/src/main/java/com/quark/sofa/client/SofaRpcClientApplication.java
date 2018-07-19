@@ -1,13 +1,13 @@
-package com.quark.sofa.jarslink;
+package com.quark.sofa.client;
 
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SofaJarsLinkApplication {
+public class SofaRpcClientApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SofaJarsLinkApplication.class, args);
+		SpringApplication.run(SofaRpcClientApplication.class, args);
 	}
 }

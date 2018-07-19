@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/sofa-jarsLink/sofa-health-check/check-client/check-client.iml" filepath="$PROJECT_DIR$/sofa-jarsLink/sofa-health-check/check-client/check-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sofa-jarsLink/sofa-health-check/check-server/check-server.iml" filepath="$PROJECT_DIR$/sofa-jarsLink/sofa-health-check/check-server/check-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sofa-jarsLink/sofa-jvm-communication/client/client.iml" filepath="$PROJECT_DIR$/sofa-jarsLink/sofa-jvm-communication/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sofa-jarsLink/sofa-health-check/check-client/client (1).iml" filepath="$PROJECT_DIR$/sofa-jarsLink/sofa-health-check/check-client/client (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/sofa-jarsLink/sofa-jvm-communication/facade/facade.iml" filepath="$PROJECT_DIR$/sofa-jarsLink/sofa-jvm-communication/facade/facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sofa-jarsLink/sofa-jvm-communication/server/server.iml" filepath="$PROJECT_DIR$/sofa-jarsLink/sofa-jvm-communication/server/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sofa-jarsLink/sofa-health-check/check-server/server (1).iml" filepath="$PROJECT_DIR$/sofa-jarsLink/sofa-health-check/check-server/server (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-boot-master/sofa-ark/sofa-ark.iml" filepath="$PROJECT_DIR$/sofa-boot-master/sofa-ark/sofa-ark.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-bolt/sofa-bolt.iml" filepath="$PROJECT_DIR$/sofa-bolt/sofa-bolt.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-boot-master/sofa-boot-consumer/sofa-boot-consumer.iml" filepath="$PROJECT_DIR$/sofa-boot-master/sofa-boot-consumer/sofa-boot-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-boot-master/sofa-boot-facade/sofa-boot-facade.iml" filepath="$PROJECT_DIR$/sofa-boot-master/sofa-boot-facade/sofa-boot-facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-boot-master/sofa-boot-master.iml" filepath="$PROJECT_DIR$/sofa-boot-master/sofa-boot-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-boot-master/sofa-boot-provider/sofa-boot-provider.iml" filepath="$PROJECT_DIR$/sofa-boot-master/sofa-boot-provider/sofa-boot-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sofa-jarsLink/sofa-boot-sample/sofa-boot-sample.iml" filepath="$PROJECT_DIR$/sofa-jarsLink/sofa-boot-sample/sofa-boot-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sofa-jarsLink/sofa-health-check/sofa-health-check.iml" filepath="$PROJECT_DIR$/sofa-jarsLink/sofa-health-check/sofa-health-check.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-jarsLink/sofa-jarsLink.iml" filepath="$PROJECT_DIR$/sofa-jarsLink/sofa-jarsLink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sofa-jarsLink/sofa-jvm-communication/sofa-jvm-communication.iml" filepath="$PROJECT_DIR$/sofa-jarsLink/sofa-jvm-communication/sofa-jvm-communication.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-master.iml" filepath="$PROJECT_DIR$/sofa-master.iml" />
     </modules>
   </component>
