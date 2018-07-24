@@ -702,3 +702,217 @@ Verify the connector's configuration, identify and stop any process that's liste
 2018-07-18 16:55:20.126  INFO 13112 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
 2018-07-18 16:55:20.232  INFO 13112 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
 2018-07-18 16:55:20.236  INFO 13112 --- [main] c.q.s.jarslink.SofaJarsLinkApplication   : Started SofaJarsLinkApplication in 3.768 seconds (JVM running for 4.213)
+2018-07-23 14:29:17.194  INFO 12104 --- [main] c.q.sofa.tracer.SofaTracerApplication    : Starting SofaTracerApplication on QF-ZHENPENGL-01 with PID 12104 (started by ZhenpengLu in D:\idea workspace\sofa-master)
+2018-07-23 14:29:17.245  INFO 12104 --- [main] c.q.sofa.tracer.SofaTracerApplication    : No active profile set, falling back to default profiles: default
+2018-07-23 14:29:17.303  INFO 12104 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@163370c2: startup date [Mon Jul 23 14:29:17 CST 2018]; root of context hierarchy
+2018-07-23 14:29:18.732  INFO 12104 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-07-23 14:29:18.765  INFO 12104 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-07-23 14:29:18.767  INFO 12104 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-07-23 14:29:18.912  INFO 12104 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-23 14:29:18.913  INFO 12104 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1613 ms
+2018-07-23 14:29:19.091  INFO 12104 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-23 14:29:19.091  INFO 12104 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'SpringMvcSofaTracerFilter' to urls: [/*]
+2018-07-23 14:29:19.092  INFO 12104 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-23 14:29:19.092  INFO 12104 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-23 14:29:19.092  INFO 12104 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-23 14:29:19.092  INFO 12104 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-23 14:29:19.347  INFO 12104 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@163370c2: startup date [Mon Jul 23 14:29:17 CST 2018]; root of context hierarchy
+2018-07-23 14:29:19.407  INFO 12104 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/springmvc]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.quark.sofa.tracer.controller.SampleRestController.springmvc(java.lang.String)
+2018-07-23 14:29:19.410  INFO 12104 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-23 14:29:19.410  INFO 12104 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-23 14:29:19.440  INFO 12104 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 14:29:19.440  INFO 12104 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 14:29:19.471  INFO 12104 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 14:29:19.651  INFO 12104 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-23 14:29:19.710  INFO 12104 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-07-23 14:29:19.714  INFO 12104 --- [main] c.q.sofa.tracer.SofaTracerApplication    : Started SofaTracerApplication in 3.167 seconds (JVM running for 3.659)
+2018-07-23 14:30:04.044  INFO 9592 --- [main] c.q.sofa.tracer.SofaTracerApplication    : Starting SofaTracerApplication on QF-ZHENPENGL-01 with PID 9592 (started by ZhenpengLu in D:\idea workspace\sofa-master)
+2018-07-23 14:30:04.048  INFO 9592 --- [main] c.q.sofa.tracer.SofaTracerApplication    : No active profile set, falling back to default profiles: default
+2018-07-23 14:30:04.125  INFO 9592 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@163370c2: startup date [Mon Jul 23 14:30:04 CST 2018]; root of context hierarchy
+2018-07-23 14:30:05.482  INFO 9592 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-07-23 14:30:05.496  INFO 9592 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-07-23 14:30:05.497  INFO 9592 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-07-23 14:30:05.594  INFO 9592 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-23 14:30:05.594  INFO 9592 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1472 ms
+2018-07-23 14:30:05.773  INFO 9592 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-23 14:30:05.774  INFO 9592 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'SpringMvcSofaTracerFilter' to urls: [/*]
+2018-07-23 14:30:05.774  INFO 9592 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-23 14:30:05.774  INFO 9592 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-23 14:30:05.774  INFO 9592 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-23 14:30:05.774  INFO 9592 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-23 14:30:06.032  INFO 9592 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@163370c2: startup date [Mon Jul 23 14:30:04 CST 2018]; root of context hierarchy
+2018-07-23 14:30:06.081  INFO 9592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/springmvc]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.quark.sofa.tracer.controller.SampleRestController.springmvc(java.lang.String)
+2018-07-23 14:30:06.083  INFO 9592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-23 14:30:06.084  INFO 9592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-23 14:30:06.109  INFO 9592 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 14:30:06.110  INFO 9592 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 14:30:06.141  INFO 9592 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 14:30:06.310  INFO 9592 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-23 14:30:06.356  INFO 9592 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-07-23 14:30:06.360  INFO 9592 --- [main] c.q.sofa.tracer.SofaTracerApplication    : Started SofaTracerApplication in 2.798 seconds (JVM running for 3.223)
+2018-07-23 14:53:02.887  INFO 9592 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-23 14:53:02.887  INFO 9592 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-23 14:53:02.911  INFO 9592 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-07-23 15:05:11.394  INFO 12372 --- [main] c.q.s.t.s.SofaTracerSampleApplication    : Starting SofaTracerSampleApplication on QF-ZHENPENGL-01 with PID 12372 (started by ZhenpengLu in D:\idea workspace\sofa-master)
+2018-07-23 15:05:11.397  INFO 12372 --- [main] c.q.s.t.s.SofaTracerSampleApplication    : No active profile set, falling back to default profiles: default
+2018-07-23 15:05:11.457  INFO 12372 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@163370c2: startup date [Mon Jul 23 15:05:11 CST 2018]; root of context hierarchy
+2018-07-23 15:05:12.640  INFO 12372 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-07-23 15:05:12.656  INFO 12372 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-07-23 15:05:12.657  INFO 12372 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-07-23 15:05:12.756  INFO 12372 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-23 15:05:12.757  INFO 12372 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1303 ms
+2018-07-23 15:05:12.926  INFO 12372 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-23 15:05:12.927  INFO 12372 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'SpringMvcSofaTracerFilter' to urls: [/*]
+2018-07-23 15:05:12.927  INFO 12372 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-23 15:05:12.927  INFO 12372 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-23 15:05:12.927  INFO 12372 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-23 15:05:12.928  INFO 12372 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-23 15:05:13.206  INFO 12372 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@163370c2: startup date [Mon Jul 23 15:05:11 CST 2018]; root of context hierarchy
+2018-07-23 15:05:13.258  INFO 12372 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/springmvc]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.quark.sofa.tracer.sample.controller.SampleRestController.springmvc(java.lang.String)
+2018-07-23 15:05:13.260  INFO 12372 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-23 15:05:13.260  INFO 12372 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-23 15:05:13.289  INFO 12372 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 15:05:13.289  INFO 12372 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 15:05:13.323  INFO 12372 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 15:05:13.518  INFO 12372 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-23 15:05:13.569  INFO 12372 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-07-23 15:05:13.573  INFO 12372 --- [main] c.q.s.t.s.SofaTracerSampleApplication    : Started SofaTracerSampleApplication in 2.717 seconds (JVM running for 3.345)
+2018-07-24 11:21:48.637  INFO 5088 --- [main] c.q.s.t.z.SofaTracerZipkinApplication    : Starting SofaTracerZipkinApplication on QF-ZHENPENGL-01 with PID 5088 (started by ZhenpengLu in D:\idea workspace\sofa-master)
+2018-07-24 11:21:48.641  INFO 5088 --- [main] c.q.s.t.z.SofaTracerZipkinApplication    : No active profile set, falling back to default profiles: default
+2018-07-24 11:21:48.702  INFO 5088 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7068e664: startup date [Tue Jul 24 11:21:48 CST 2018]; root of context hierarchy
+2018-07-24 11:21:50.005  INFO 5088 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-07-24 11:21:50.016  INFO 5088 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-07-24 11:21:50.018  INFO 5088 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-07-24 11:21:50.161  INFO 5088 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-24 11:21:50.162  INFO 5088 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1464 ms
+2018-07-24 11:21:50.343  INFO 5088 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-24 11:21:50.343  INFO 5088 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'SpringMvcSofaTracerFilter' to urls: [/*]
+2018-07-24 11:21:50.343  INFO 5088 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-24 11:21:50.343  INFO 5088 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-24 11:21:50.344  INFO 5088 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-24 11:21:50.344  INFO 5088 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-24 11:21:50.671  INFO 5088 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7068e664: startup date [Tue Jul 24 11:21:48 CST 2018]; root of context hierarchy
+2018-07-24 11:21:50.732  INFO 5088 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/zipkin]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.quark.sofa.tracer.zipkin.controller.SampleRestController.zipkin(java.lang.String)
+2018-07-24 11:21:50.735  INFO 5088 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-24 11:21:50.735  INFO 5088 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-24 11:21:50.765  INFO 5088 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 11:21:50.765  INFO 5088 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 11:21:50.801  INFO 5088 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 11:21:51.000  INFO 5088 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-24 11:21:51.055  INFO 5088 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-07-24 11:21:51.059  INFO 5088 --- [main] c.q.s.t.z.SofaTracerZipkinApplication    : Started SofaTracerZipkinApplication in 3.031 seconds (JVM running for 3.616)
+2018-07-24 11:25:52.544  INFO 11452 --- [main] c.q.s.t.z.SofaTracerZipkinApplication    : Starting SofaTracerZipkinApplication on QF-ZHENPENGL-01 with PID 11452 (started by ZhenpengLu in D:\idea workspace\sofa-master)
+2018-07-24 11:25:52.548  INFO 11452 --- [main] c.q.s.t.z.SofaTracerZipkinApplication    : No active profile set, falling back to default profiles: default
+2018-07-24 11:25:52.627  INFO 11452 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7068e664: startup date [Tue Jul 24 11:25:52 CST 2018]; root of context hierarchy
+2018-07-24 11:25:54.001  INFO 11452 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-07-24 11:25:54.013  INFO 11452 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-07-24 11:25:54.014  INFO 11452 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-07-24 11:25:54.102  INFO 11452 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-24 11:25:54.103  INFO 11452 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1479 ms
+2018-07-24 11:25:54.300  INFO 11452 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-24 11:25:54.300  INFO 11452 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'SpringMvcSofaTracerFilter' to urls: [/*]
+2018-07-24 11:25:54.301  INFO 11452 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-24 11:25:54.301  INFO 11452 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-24 11:25:54.301  INFO 11452 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-24 11:25:54.301  INFO 11452 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-24 11:25:54.610  INFO 11452 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7068e664: startup date [Tue Jul 24 11:25:52 CST 2018]; root of context hierarchy
+2018-07-24 11:25:54.721  INFO 11452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/zipkin]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.quark.sofa.tracer.zipkin.controller.SampleRestController.zipkin(java.lang.String)
+2018-07-24 11:25:54.725  INFO 11452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-24 11:25:54.726  INFO 11452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-24 11:25:54.754  INFO 11452 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 11:25:54.754  INFO 11452 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 11:25:54.792  INFO 11452 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 11:25:54.996  INFO 11452 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-24 11:25:55.046  INFO 11452 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-07-24 11:25:55.050  INFO 11452 --- [main] c.q.s.t.z.SofaTracerZipkinApplication    : Started SofaTracerZipkinApplication in 3.043 seconds (JVM running for 3.425)
+2018-07-24 11:26:20.114  INFO 11452 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-24 11:26:20.115  INFO 11452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-24 11:26:20.132  INFO 11452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2018-07-24 11:26:21.346  WARN 11452 --- [AsyncReporter(com.alipay.sofa.tracer.boot.zipkin.sender.ZipkinRestTemplateSender@53a665ad)] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://zipkin-cloud-3.host.net:9411/api/v1/spans": zipkin-cloud-3.host.net; nested exception is java.net.UnknownHostException: zipkin-cloud-3.host.net)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://zipkin-cloud-3.host.net:9411/api/v1/spans": zipkin-cloud-3.host.net; nested exception is java.net.UnknownHostException: zipkin-cloud-3.host.net
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:595) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:557) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at com.alipay.sofa.tracer.boot.zipkin.sender.ZipkinRestTemplateSender.post(ZipkinRestTemplateSender.java:110) ~[tracer-sofa-boot-starter-2.1.1.jar:2.1.1]
+	at com.alipay.sofa.tracer.boot.zipkin.sender.ZipkinRestTemplateSender.sendSpans(ZipkinRestTemplateSender.java:77) ~[tracer-sofa-boot-starter-2.1.1.jar:2.1.1]
+	at zipkin.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:228) [zipkin-reporter-0.6.12.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder.lambda$build$0(AsyncReporter.java:153) [zipkin-reporter-0.6.12.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder$$Lambda$1.run(Unknown Source) [zipkin-reporter-0.6.12.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_144]
+Caused by: java.net.UnknownHostException: zipkin-cloud-3.host.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[na:1.8.0_144]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_144]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_144]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_144]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_144]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_144]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_144]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_144]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_144]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_144]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_144]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202) ~[na:1.8.0_144]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138) ~[na:1.8.0_144]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032) ~[na:1.8.0_144]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966) ~[na:1.8.0_144]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:619) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	... 8 common frames omitted
+
+2018-07-24 11:27:23.184  INFO 13048 --- [main] c.q.s.t.z.SofaTracerZipkinApplication    : Starting SofaTracerZipkinApplication on QF-ZHENPENGL-01 with PID 13048 (started by ZhenpengLu in D:\idea workspace\sofa-master)
+2018-07-24 11:27:23.188  INFO 13048 --- [main] c.q.s.t.z.SofaTracerZipkinApplication    : No active profile set, falling back to default profiles: default
+2018-07-24 11:27:23.247  INFO 13048 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7068e664: startup date [Tue Jul 24 11:27:23 CST 2018]; root of context hierarchy
+2018-07-24 11:27:24.587  INFO 13048 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-07-24 11:27:24.599  INFO 13048 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-07-24 11:27:24.600  INFO 13048 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-07-24 11:27:24.706  INFO 13048 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-24 11:27:24.707  INFO 13048 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1464 ms
+2018-07-24 11:27:24.891  INFO 13048 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-24 11:27:24.892  INFO 13048 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'SpringMvcSofaTracerFilter' to urls: [/*]
+2018-07-24 11:27:24.892  INFO 13048 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-24 11:27:24.892  INFO 13048 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-24 11:27:24.892  INFO 13048 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-24 11:27:24.893  INFO 13048 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-24 11:27:25.220  INFO 13048 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7068e664: startup date [Tue Jul 24 11:27:23 CST 2018]; root of context hierarchy
+2018-07-24 11:27:25.329  INFO 13048 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/zipkin]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.quark.sofa.tracer.zipkin.controller.SampleRestController.zipkin(java.lang.String)
+2018-07-24 11:27:25.332  INFO 13048 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-24 11:27:25.333  INFO 13048 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-24 11:27:25.359  INFO 13048 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 11:27:25.359  INFO 13048 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 11:27:25.397  INFO 13048 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 11:27:25.601  INFO 13048 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-24 11:27:25.651  INFO 13048 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-07-24 11:27:25.655  INFO 13048 --- [main] c.q.s.t.z.SofaTracerZipkinApplication    : Started SofaTracerZipkinApplication in 3.022 seconds (JVM running for 3.448)
+2018-07-24 11:27:27.732  INFO 13048 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-24 11:27:27.732  INFO 13048 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-24 11:27:27.748  INFO 13048 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2018-07-24 11:36:51.438  INFO 10172 --- [main] c.q.s.t.z.SofaTracerZipkinApplication    : Starting SofaTracerZipkinApplication on QF-ZHENPENGL-01 with PID 10172 (started by ZhenpengLu in D:\idea workspace\sofa-master)
+2018-07-24 11:36:51.443  INFO 10172 --- [main] c.q.s.t.z.SofaTracerZipkinApplication    : No active profile set, falling back to default profiles: default
+2018-07-24 11:36:51.536  INFO 10172 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7068e664: startup date [Tue Jul 24 11:36:51 CST 2018]; root of context hierarchy
+2018-07-24 11:36:53.001  INFO 10172 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-07-24 11:36:53.013  INFO 10172 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-07-24 11:36:53.014  INFO 10172 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-07-24 11:36:53.117  INFO 10172 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-24 11:36:53.118  INFO 10172 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1585 ms
+2018-07-24 11:36:53.315  INFO 10172 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-24 11:36:53.315  INFO 10172 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'SpringMvcSofaTracerFilter' to urls: [/*]
+2018-07-24 11:36:53.315  INFO 10172 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-24 11:36:53.316  INFO 10172 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-24 11:36:53.316  INFO 10172 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-24 11:36:53.316  INFO 10172 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-24 11:36:53.654  INFO 10172 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7068e664: startup date [Tue Jul 24 11:36:51 CST 2018]; root of context hierarchy
+2018-07-24 11:36:53.719  INFO 10172 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/zipkin]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.quark.sofa.tracer.zipkin.controller.SampleRestController.zipkin(java.lang.String)
+2018-07-24 11:36:53.723  INFO 10172 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-24 11:36:53.723  INFO 10172 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-24 11:36:53.756  INFO 10172 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 11:36:53.756  INFO 10172 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 11:36:53.794  INFO 10172 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 11:36:54.015  INFO 10172 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-24 11:36:54.072  INFO 10172 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-07-24 11:36:54.077  INFO 10172 --- [main] c.q.s.t.z.SofaTracerZipkinApplication    : Started SofaTracerZipkinApplication in 3.131 seconds (JVM running for 3.521)
+2018-07-24 11:36:57.022  INFO 10172 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-24 11:36:57.022  INFO 10172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-24 11:36:57.037  INFO 10172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms

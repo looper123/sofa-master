@@ -20,6 +20,8 @@
     <modules>
         <module>sofa-boot-master</module>
         <module>sofa-bolt</module>
+        <module>sofa-mosn</module>
+        <module>sofa-tracer</module>
         <!--<module>sofa-jarsLink</module>-->
     </modules>
 

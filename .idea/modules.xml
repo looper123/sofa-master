@@ -20,6 +20,11 @@
       <module fileurl="file://$PROJECT_DIR$/sofa-jarsLink/sofa-jarsLink.iml" filepath="$PROJECT_DIR$/sofa-jarsLink/sofa-jarsLink.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-jarsLink/sofa-jvm-communication/sofa-jvm-communication.iml" filepath="$PROJECT_DIR$/sofa-jarsLink/sofa-jvm-communication/sofa-jvm-communication.iml" />
       <module fileurl="file://$PROJECT_DIR$/sofa-master.iml" filepath="$PROJECT_DIR$/sofa-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sofa-mosn/sofa-mosn.iml" filepath="$PROJECT_DIR$/sofa-mosn/sofa-mosn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sofa-tracer/sofa-tracer.iml" filepath="$PROJECT_DIR$/sofa-tracer/sofa-tracer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sofa-tracer/sofa-tracer-sample/sofa-tracer-sample.iml" filepath="$PROJECT_DIR$/sofa-tracer/sofa-tracer-sample/sofa-tracer-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sofa-tracer/sofa-tracer-slf4j/sofa-tracer-slf4j.iml" filepath="$PROJECT_DIR$/sofa-tracer/sofa-tracer-slf4j/sofa-tracer-slf4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sofa-tracer/sofa-tracer-zipkin/sofa-tracer-zipkin.iml" filepath="$PROJECT_DIR$/sofa-tracer/sofa-tracer-zipkin/sofa-tracer-zipkin.iml" />
     </modules>
   </component>
 </project>

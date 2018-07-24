@@ -19,6 +19,10 @@
         <module name="sofa-boot-facade" />
         <module name="sofa-boot-provider" />
         <module name="sofa-boot-sample" />
+        <module name="sofa-mosn" />
+        <module name="sofa-tracer-sample" />
+        <module name="sofa-tracer-slf4j" />
+        <module name="sofa-tracer-zipkin" />
       </profile>
       <profile name="Annotation profile for sofa-jarsLink" enabled="true">
         <sourceOutputDir name="../client/target/generated-sources/annotations" />
@@ -50,7 +54,12 @@
       <module name="sofa-jarsLink" target="1.7" />
       <module name="sofa-jvm-communication" target="1.7" />
       <module name="sofa-master" target="1.7" />
+      <module name="sofa-mosn" target="1.7" />
       <module name="sofa-test" target="1.7" />
+      <module name="sofa-tracer" target="1.7" />
+      <module name="sofa-tracer-sample" target="1.7" />
+      <module name="sofa-tracer-slf4j" target="1.7" />
+      <module name="sofa-tracer-zipkin" target="1.7" />
       <module name="sofabootmaster" target="1.7" />
     </bytecodeTargetLevel>
   </component>

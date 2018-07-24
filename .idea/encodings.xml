@@ -17,6 +17,11 @@
     <file url="file://$PROJECT_DIR$/sofa-jarsLink/sofa-jvm-communication/client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sofa-jarsLink/sofa-jvm-communication/facade" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sofa-jarsLink/sofa-jvm-communication/server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sofa-mosn" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sofa-tracer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sofa-tracer/sofa-tracer-sample" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sofa-tracer/sofa-tracer-slf4j" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sofa-tracer/sofa-tracer-zipkin" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
